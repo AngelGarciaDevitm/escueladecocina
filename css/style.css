@@ -14,6 +14,25 @@ p {
     font-size: 1rem;
 }
 
+.bg-primary,
+.list-group-item-primary,
+.btn-primary { 
+    background-color: #f46669!important;
+}
+.btn-primary {
+    border-color: #f46669;
+}
+
+.badge-secondary,
+.bg-secondary,
+.list-group-item-secondary {
+    background-color: #c7c57d!important;
+}
+
+.bg-secondary {
+    color: black;
+}
+
 .nav-link {
     color: black;
 }
@@ -81,10 +100,7 @@ blockquote.subtitulo {
 .contenido-entrada .meta span {
     color:#f46669;
 }
-.btn-primary {
-    background-color: #f46669;
-    border-color: #f46669;
-}
+
 .btn-primary:hover {
     background-color:#e65659;
     border-color: #e65659;
@@ -93,9 +109,6 @@ blockquote.subtitulo {
     color: white!important;
 }
 /*sidebar*/
-.bg-primary {
-    background-color: #f46669!important;
-}
 aside a,
 aside a:hover {
     color: #f5f5f5;
@@ -119,10 +132,6 @@ aside .card-footer a {
     color: black;
 }
 /*Cursos*/
-.badge-secondary {
-    background-color: #c7c57d;
-    color: black;
-}
 .card {
     margin-bottom: 2rem;
 }
@@ -132,6 +141,11 @@ aside .card-footer a {
 .card-subtitle {
     color: #f46669;
     font-weight: 400;
+}
+/*Instructor */
+.instructor {
+    font-size: 1.8rem;
+    color: #f46669;
 }
 
 .copyright{
