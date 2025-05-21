@@ -54,7 +54,10 @@ p {
     position: relative;
     z-index: 100;
 }
-
+.nosotros .informacion h3 {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
 
 
 .copyright{
